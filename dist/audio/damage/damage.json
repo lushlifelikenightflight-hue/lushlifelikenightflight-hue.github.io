@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "sounds": {
+    "hit": {
+      "file": "hit.wav",
+      "loop": false,
+      "seconds": 0.58,
+      "peak": 0.6633769449567296,
+      "sha256": "80f01ac5f70df7e3279bd5e5c212fdd727829233ba42c37ad0d0e51147ea050d"
+    },
+    "heavy": {
+      "file": "heavy.wav",
+      "loop": false,
+      "seconds": 1.12,
+      "peak": 0.85,
+      "sha256": "f1c38866c86f1c8adf2f28a240f1380ccc85ea14702469ea35153381e39722c4"
+    },
+    "acid": {
+      "file": "acid.wav",
+      "loop": false,
+      "seconds": 0.65,
+      "peak": 0.6085628041830947,
+      "sha256": "daf9934106f44b94d248ea47cc200c4177d92dd2ece3e4de919c2c3b1360f95e"
+    },
+    "death": {
+      "file": "death.wav",
+      "loop": false,
+      "seconds": 2.3,
+      "peak": 0.85,
+      "sha256": "0bf8942e29fc74c77b70ceb31b78ef02ca57c5a41079732e854f193dd96939ae"
+    },
+    "vanish": {
+      "file": "vanish.wav",
+      "loop": false,
+      "seconds": 2.7,
+      "peak": 0.636404169630218,
+      "sha256": "868785ca88b80b4f2340b1dfab80cb6033a0f456041813d32922c31a609a7109"
+    },
+    "heart": {
+      "file": "heart.wav",
+      "loop": false,
+      "seconds": 0.72,
+      "peak": 0.28390373830540666,
+      "sha256": "35e6531405d59bc9aff263881e3984368fe56667c60d3f3a248a394aaea6a46a"
+    },
+    "warning": {
+      "file": "warning.wav",
+      "loop": true,
+      "seconds": 2.0,
+      "peak": 0.197941922643185,
+      "sha256": "fc24c8664bb2efecd11e625c62f7c17a33194fe32345534ee746bac6280ee93b"
+    }
+  },
+  "causes": {
+    "zombie": {
+      "label": "ゾンビの攻撃",
+      "sound": "hit"
+    },
+    "boss": {
+      "label": "ボスの攻撃",
+      "sound": "hit"
+    },
+    "acid": {
+      "label": "腐食液による損傷",
+      "sound": "acid"
+    },
+    "fall": {
+      "label": "街の裂け目への落下"
+    },
+    "orb": {
+      "label": "黒い球体との接触",
+      "fatal": "vanish"
+    },
+    "explosion": {
+      "label": "爆発による損傷",
+      "sound": "heavy"
+    },
+    "environment": {
+      "label": "周囲の危険による損傷"
+    },
+    "other": {
+      "label": "原因不明の損傷"
+    }
+  },
+  "source": "Original deterministic synthesis: impact, filtered air/pain-breath texture, heartbeat and ringing; no recorded human voice. Optional missing clips are skipped safely."
+}
